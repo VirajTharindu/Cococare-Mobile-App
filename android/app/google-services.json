@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1052196018004",
+    "project_id": "coconut-disease-detectio-de81f",
+    "storage_bucket": "coconut-disease-detectio-de81f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1052196018004:android:fb2d2c029d62ea73549ac1",
+        "android_client_info": {
+          "package_name": "com.example.coconut_disease_detection"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXCIZkDVuTajtrw9EbuaY46cQCY6RnGYw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
