@@ -1,4 +1,4 @@
-import 'package:coconut_disease_detection/features/authentication/controllers.onboarding/onboarding_controller.dart';
+import 'package:coconut_disease_detection/features/authentication/controllers/onboarding/onboarding_controller.dart';
 import 'package:coconut_disease_detection/utils/constants/colors.dart';
 import 'package:coconut_disease_detection/utils/constants/sizes.dart';
 import 'package:coconut_disease_detection/utils/device/device_utility.dart';

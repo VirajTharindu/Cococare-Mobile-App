@@ -12,7 +12,20 @@
           "package_name": "com.example.coconut_disease_detection"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "1052196018004-100jh4lg28f5u9pnuui2hvidqtoeglak.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.coconut_disease_detection",
+            "certificate_hash": "e9361fa6bf9fffa1538947aa40e3650f980c43ad"
+          }
+        },
+        {
+          "client_id": "1052196018004-1t8r4642flhl0hfi44rul0hufu2mr81u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyDXCIZkDVuTajtrw9EbuaY46cQCY6RnGYw"
@@ -20,7 +33,19 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1052196018004-1t8r4642flhl0hfi44rul0hufu2mr81u.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1052196018004-0sqrse66u0vpl8mlbtmnc8g88eg38ri8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.coconutDiseaseDetection"
+              }
+            }
+          ]
         }
       }
     }

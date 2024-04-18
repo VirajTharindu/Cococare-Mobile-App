@@ -1,3 +1,4 @@
+import 'package:coconut_disease_detection/features/authentication/screens/login/login.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -20,11 +21,19 @@ class OnBordingController extends GetxController {
   ///update current index & jump to next page
   void nextPage() {
     if (currentPageIndex.value == 2) {
-      //Get.to(LoginScreen());
+      Get.offAll(const LoginScreen());
     } else {
       int page = currentPageIndex.value + 1;
       pageController.jumpToPage(page);
     }
+
+    //if onboarding should be skipped after the 1st time open
+
+    //final storage = GetStorage();
+    //if(kDebugMode){
+    // print('=======Get Storage========');
+    // print(deviceStorage.read('isFirstTime'));
+    //}
   }
 
   ///update skipping method

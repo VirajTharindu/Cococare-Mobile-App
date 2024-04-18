@@ -1,8 +1,9 @@
-import 'package:coconut_disease_detection/features/authentication/controllers.onboarding/onboarding_controller.dart';
-import 'package:coconut_disease_detection/features/authentication/screens_onboarding/widgets/onboading_skip.dart';
-import 'package:coconut_disease_detection/features/authentication/screens_onboarding/widgets/onboarding_dot_navigation.dart';
-import 'package:coconut_disease_detection/features/authentication/screens_onboarding/widgets/onboarding_next_button.dart';
-import 'package:coconut_disease_detection/features/authentication/screens_onboarding/widgets/onboarding_page.dart';
+import 'package:coconut_disease_detection/features/authentication/controllers/onboarding/onboarding_controller.dart';
+import 'package:coconut_disease_detection/features/authentication/screens/onboarding/widgets/onboading_skip.dart';
+import 'package:coconut_disease_detection/features/authentication/screens/onboarding/widgets/onboarding_dot_navigation.dart';
+import 'package:coconut_disease_detection/features/authentication/screens/onboarding/widgets/onboarding_next_button.dart';
+import 'package:coconut_disease_detection/features/authentication/screens/onboarding/widgets/onboarding_page.dart';
+import 'package:coconut_disease_detection/features/authentication/screens/onboarding/onboarding.dart';
 import 'package:coconut_disease_detection/utils/constants/colors.dart';
 import 'package:coconut_disease_detection/utils/constants/sizes.dart';
 import 'package:coconut_disease_detection/utils/constants/text_strings.dart';

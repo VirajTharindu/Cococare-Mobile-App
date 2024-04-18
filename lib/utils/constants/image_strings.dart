@@ -12,4 +12,16 @@ class CImages {
 
   static const String onboardingAsset2 = "assets/images/onboardingAsset2.png";
   static const String onboardingAsset3 = "assets/images/onboardingAsset3.png";
+
+  //animations
+
+  static const String serviceIlustration1 = "assets/animations/service1.png";
+  static const String serviceIlustration2 = "assets/animations/service2.png";
+  static const String successfullyRegister =
+      "assets/animations/successfullyRegister.gif";
+  static const String serviceIlustration4 = "assets/animations/service4.png";
+  static const String serviceIlustration5 = "assets/animations/service5.png";
+  static const String serviceIlustration6 = "assets/animations/service6.png";
+
+  static const String loading = "assets/animations/Loading.gif";
 }

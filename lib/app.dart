@@ -1,4 +1,5 @@
-import 'package:coconut_disease_detection/features/authentication/screens_onboarding/onboarding/onboarding.dart';
+import 'package:coconut_disease_detection/bindings/general_binding.dart';
+import 'package:coconut_disease_detection/features/authentication/screens/onboarding/onboarding.dart';
 import 'package:flutter/material.dart';
 import 'package:coconut_disease_detection/utils/theme/theme.dart';
 import 'package:get/get.dart';
@@ -15,6 +16,7 @@ class MyApp extends StatelessWidget {
       themeMode: ThemeMode.system,
       theme: CAppTheme.lightTheme,
       darkTheme: CAppTheme.darkTheme,
+      initialBinding: GeneralBinding(),
       home: const OnBoardingScreen(),
     );
   }
