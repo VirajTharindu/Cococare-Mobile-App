@@ -1,6 +1,8 @@
+import 'package:coconut_disease_detection/data/repositories/user/user_repository.dart';
 import 'package:coconut_disease_detection/features/authentication/screens/login/login.dart';
 import 'package:coconut_disease_detection/features/authentication/screens/onboarding/onboarding.dart';
 import 'package:coconut_disease_detection/features/authentication/screens/signup/verify_email.dart';
+import 'package:coconut_disease_detection/navigation_menu.dart';
 import 'package:coconut_disease_detection/utils/exceptions/firebase_auth_exceptions.dart';
 import 'package:coconut_disease_detection/utils/exceptions/format_exceptions.dart';
 import 'package:coconut_disease_detection/utils/exceptions/platform_exceptions.dart';
@@ -18,6 +20,9 @@ class AuthenticationRepository extends GetxController {
   final deviceStorage = GetStorage();
   final _auth = FirebaseAuth.instance;
 
+  //get authenticated user data
+  User? get authUser => _auth.currentUser;
+
   //called from main.dart on app launch
   //if onboarding & splash should be skipped after the 1st time open
 
@@ -32,7 +37,7 @@ class AuthenticationRepository extends GetxController {
     final user = _auth.currentUser;
     if (user != null) {
       if (user.emailVerified) {
-        Get.offAll(() => const LoginScreen()); //should be home
+        Get.offAll(() => const NavigationMenu()); //should be home
       } else {
         Get.offAll(() => VerifyEmailScreen(
             email: _auth.currentUser?.email)); //should be home
@@ -168,5 +173,45 @@ class AuthenticationRepository extends GetxController {
     }
   }
 
+//re authenticate user
+  Future<void> reAuthenticateWithEmailAndPassword(
+      String email, String password) async {
+    try {
+      //create a credential
+      AuthCredential credential =
+          EmailAuthProvider.credential(email: email, password: password);
+
+      //re authenticate user
+      await _auth.currentUser!.reauthenticateWithCredential(credential);
+    } on FirebaseAuthException catch (e) {
+      throw CFirebaseAuthException(e.code).message;
+    } on FirebaseException catch (e) {
+      throw CFirebaseException(e.code).message;
+    } on FormatException catch (_) {
+      throw const CFormatException();
+    } on PlatformException catch (e) {
+      throw CPlatformException(e.code).message;
+    } catch (e) {
+      throw 'Something went wrong! Please try again later.';
+    }
+  }
+
 //delete account - delete user auth & firebase account
+  Future<void> deleteAccount() async {
+    try {
+      //delete user auth
+      await UserRepository.instance.removeUserRecord(_auth.currentUser!.uid);
+      await _auth.currentUser?.delete();
+    } on FirebaseAuthException catch (e) {
+      throw CFirebaseAuthException(e.code).message;
+    } on FirebaseException catch (e) {
+      throw CFirebaseException(e.code).message;
+    } on FormatException catch (_) {
+      throw const CFormatException();
+    } on PlatformException catch (e) {
+      throw CPlatformException(e.code).message;
+    } catch (e) {
+      throw 'Something went wrong! Please try again later.';
+    }
+  }
 }

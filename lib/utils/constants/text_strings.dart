@@ -17,8 +17,7 @@ class CTexts {
       "We are Empowering farmers for healthier, profitable coconut plantations. Please Join us!";
 
   static const String homeAppbarTitle = "CocoCare";
-  static const String homeAppbarSubtitle =
-      "Detecting with Managing Coconut Diseases Made Easy";
+  static const String homeAppbarSubtitle = "Manage your Coco Farm!";
 
   static const String loginTitle = "Welcome Back";
   static const String loginSubTitle =
@@ -85,4 +84,17 @@ class CTexts {
       "Your account has been created successfully";
   static const String yourAccountCreatedSubtitle =
       "Welcome to our ultimate service facility. Unleash your full potential with our comprehensive range of services. We are here to assist you in every way possible. So, let's get started and take the first step towards a brighter future together!";
+
+  static const String dashboardTitle = "Dashboard";
+  static const String dashboardSubtitle =
+      "Empowering coconut farmers with CocoCare";
+
+  static const String profileTitle = "Profile";
+  static const String profileSubtitle =
+      "Manage your account and personal information";
+
+  static const String settingsTitle = "Settings";
+
+  static const String firstName = "First Name";
+  static const String lastName = "Last Name";
 }

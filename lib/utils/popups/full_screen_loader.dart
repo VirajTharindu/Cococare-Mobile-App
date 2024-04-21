@@ -1,5 +1,6 @@
 import 'package:coconut_disease_detection/common/loaders/animation_loader.dart';
 import 'package:coconut_disease_detection/utils/constants/colors.dart';
+import 'package:coconut_disease_detection/utils/constants/image_strings.dart';
 import 'package:coconut_disease_detection/utils/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';

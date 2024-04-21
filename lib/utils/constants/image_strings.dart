@@ -24,4 +24,7 @@ class CImages {
   static const String serviceIlustration6 = "assets/animations/service6.png";
 
   static const String loading = "assets/animations/Loading.gif";
+
+  //profile
+  static const String user = "assets/images/user.png";
 }

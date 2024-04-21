@@ -1,3 +1,4 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:coconut_disease_detection/utils/formatters/formatter.dart';
 
 class UserModel {
@@ -73,22 +74,24 @@ class UserModel {
   }
 
 //factory method to create a usermodel from a firebase document snapshot
-  //factory UserModel.fromSnapshot(
-  //DocumentSnapshot<Map<String, dynamic>> document) {
-  //if (document.data() != null) {
-  //final data = document.data()!;
+  factory UserModel.fromSnapshot(
+      DocumentSnapshot<Map<String, dynamic>> document) {
+    if (document.data() != null) {
+      final data = document.data()!;
 
-  //return UserModel(
-  //id: document.id,
-  //firstName: data['FirstName'] ?? '',
-  //lastName: data['LastName'] ?? '',
-  //userName: data['UserName'] ?? '',
-  //nationalID: data['NationalID'] ?? '',
-  //email: data['Email'] ?? '',
-  //phoneNumber: data['PhoneNumber'] ?? '',
-  //address: data['Address'] ?? '',
-  //profilePicture: data['ProfilePicture'] ?? '',
-  //);
-  //}
-  //}
+      return UserModel(
+        id: document.id,
+        firstName: data['FirstName'] ?? '',
+        lastName: data['LastName'] ?? '',
+        userName: data['UserName'] ?? '',
+        nationalID: data['NationalID'] ?? '',
+        email: data['Email'] ?? '',
+        phoneNumber: data['PhoneNumber'] ?? '',
+        address: data['Address'] ?? '',
+        profilePicture: data['ProfilePicture'] ?? '',
+      );
+    } else {
+      return UserModel.empty();
+    }
+  }
 }
