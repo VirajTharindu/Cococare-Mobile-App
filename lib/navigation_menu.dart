@@ -1,10 +1,12 @@
+import 'package:coconut_disease_detection/features/authentication/screens/disease_detect/disease_detect.dart';
+import 'package:coconut_disease_detection/features/authentication/screens/diseases/stem_bleeding.dart';
 import 'package:coconut_disease_detection/features/authentication/screens/home/home.dart';
+import 'package:coconut_disease_detection/features/authentication/screens/result/result.dart';
 import 'package:coconut_disease_detection/features/personalization/screens/profile.dart';
 import 'package:coconut_disease_detection/utils/constants/colors.dart';
 import 'package:coconut_disease_detection/utils/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get/get_state_manager/src/simple/get_controllers.dart';
 import 'package:iconsax/iconsax.dart';
 
 class NavigationMenu extends StatelessWidget {
@@ -24,7 +26,8 @@ class NavigationMenu extends StatelessWidget {
           onDestinationSelected: (index) =>
               controller.selectedIndex.value = index,
           backgroundColor: darkMode ? CColors.black : CColors.white,
-          //indicatorColor: darkMode ? CColors.white.withOpacity(0.1) : CColors.black.withOpacity(0.1),
+          shadowColor: CColors.grey.withOpacity(0.7),
+          //ndicatorColor: darkMode ? CColors.white.withOpacity(0.1) : CColors.black.withOpacity(0.1),
 
           destinations: const [
             NavigationDestination(icon: Icon(Iconsax.home), label: 'Home'),
@@ -44,13 +47,9 @@ class NavigationController extends GetxController {
   final Rx<int> selectedIndex = 0.obs;
 
   final screens = [
-    const HomeScreen(),
-    Container(
-      color: Colors.purple,
-    ),
-    Container(
-      color: Colors.orange,
-    ),
+    const DiseaseDetect(),
+    const Result(),
+    const Stem_bleeding(),
     const ProfileScreen(),
   ];
 }

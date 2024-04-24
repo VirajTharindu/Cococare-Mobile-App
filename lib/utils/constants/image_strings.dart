@@ -27,4 +27,10 @@ class CImages {
 
   //profile
   static const String user = "assets/images/user.png";
+
+  //stem bleeding
+  static const String sb1 = "assets/images/sb1.jpg";
+  static const String sb2 = "assets/images/sb2.jpeg";
+  static const String sb3 = "assets/images/sb3.jpg";
+  static const String sb4 = "assets/images/sb4.jpeg";
 }
