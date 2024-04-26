@@ -1,13 +1,10 @@
 import 'package:coconut_disease_detection/common/widgets.login_signup/form_divider.dart';
 import 'package:coconut_disease_detection/common/widgets.login_signup/socialmedia.dart';
 import 'package:coconut_disease_detection/features/authentication/screens/signup/widgets/signup_form.dart';
-import 'package:coconut_disease_detection/utils/constants/colors.dart';
 import 'package:coconut_disease_detection/utils/constants/sizes.dart';
 import 'package:coconut_disease_detection/utils/constants/text_strings.dart';
-import 'package:coconut_disease_detection/utils/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:iconsax/iconsax.dart';
 
 class SignupScreen extends StatelessWidget {
   const SignupScreen({Key? key}) : super(key: key);

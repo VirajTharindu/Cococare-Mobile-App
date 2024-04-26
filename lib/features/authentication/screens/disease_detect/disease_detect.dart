@@ -1,5 +1,6 @@
 import 'package:coconut_disease_detection/common/appbar/appbar.dart';
 import 'package:coconut_disease_detection/common/section_heading.dart';
+import 'package:coconut_disease_detection/features/authentication/screens/tracking/tracking.dart';
 import 'package:coconut_disease_detection/utils/constants/colors.dart';
 import 'package:coconut_disease_detection/utils/constants/sizes.dart';
 import 'package:flutter/material.dart';
@@ -139,7 +140,7 @@ class DiseaseDetect extends StatelessWidget {
             ),
 
             //2nd container
-            child: _buildFourButtonGrid(), // Call the new function
+            child: _buildFourButtonGrid(context), // Call the new function
           ),
         ]),
       ),
@@ -147,7 +148,7 @@ class DiseaseDetect extends StatelessWidget {
   }
 }
 
-Widget _buildFourButtonGrid() {
+Widget _buildFourButtonGrid(BuildContext context) {
   return GridView.count(
       crossAxisCount: 2, // Two buttons per row
       childAspectRatio: 1.0, // Aspect ratio for square buttons
@@ -159,7 +160,7 @@ Widget _buildFourButtonGrid() {
           style: ElevatedButton.styleFrom(
             backgroundColor: CColors.lightgrey,
             foregroundColor: CColors.primaryColor,
-            side: const BorderSide(color: CColors.grey),
+            side: BorderSide(color: CColors.grey.withOpacity(0.7)),
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(20.0),
             ),
@@ -180,7 +181,7 @@ Widget _buildFourButtonGrid() {
           style: ElevatedButton.styleFrom(
             backgroundColor: CColors.lightgrey,
             foregroundColor: CColors.primaryColor,
-            side: const BorderSide(color: CColors.grey),
+            side: BorderSide(color: CColors.grey.withOpacity(0.7)),
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(20.0),
             ),
@@ -199,11 +200,14 @@ Widget _buildFourButtonGrid() {
           ),
         ),
         ElevatedButton(
-          onPressed: () {},
+          onPressed: () =>
+              // Navigate to the tracking screen
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => const Tracking())),
           style: ElevatedButton.styleFrom(
             backgroundColor: CColors.lightgrey,
             foregroundColor: CColors.primaryColor,
-            side: const BorderSide(color: CColors.grey),
+            side: BorderSide(color: CColors.grey.withOpacity(0.7)),
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(20.0),
             ),
@@ -224,7 +228,7 @@ Widget _buildFourButtonGrid() {
             style: ElevatedButton.styleFrom(
               backgroundColor: CColors.lightgrey,
               foregroundColor: CColors.primaryColor,
-              side: const BorderSide(color: CColors.grey),
+              side: BorderSide(color: CColors.grey.withOpacity(0.7)),
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(20.0),
               ),

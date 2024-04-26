@@ -1,4 +1,5 @@
 import 'package:coconut_disease_detection/features/authentication/screens/disease_detect/disease_detect.dart';
+import 'package:coconut_disease_detection/features/authentication/screens/disease_list/disease_list.dart';
 import 'package:coconut_disease_detection/features/authentication/screens/diseases/stem_bleeding.dart';
 import 'package:coconut_disease_detection/features/authentication/screens/home/home.dart';
 import 'package:coconut_disease_detection/features/authentication/screens/result/result.dart';
@@ -49,7 +50,7 @@ class NavigationController extends GetxController {
   final screens = [
     const DiseaseDetect(),
     const Result(),
-    const Stem_bleeding(),
+    const DiseaseList(),
     const ProfileScreen(),
   ];
 }

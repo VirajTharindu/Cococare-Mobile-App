@@ -33,4 +33,11 @@ class CImages {
   static const String sb2 = "assets/images/sb2.jpeg";
   static const String sb3 = "assets/images/sb3.jpg";
   static const String sb4 = "assets/images/sb4.jpeg";
+
+  //diseases list
+  static const String cci = "assets/images/cci.jpeg";
+  static const String br = "assets/images/br.jpg";
+  static const String gls = "assets/images/gls.jpeg";
+  static const String lr = "assets/images/lr.jpg";
+  static const String sblist = "assets/images/sb_list.jpg";
 }

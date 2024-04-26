@@ -5,6 +5,7 @@ import 'package:coconut_disease_detection/features/personalization/controllers/u
 import 'package:coconut_disease_detection/features/personalization/screens/widgets/change_name.dart';
 import 'package:coconut_disease_detection/features/personalization/screens/widgets/profile_menu.dart';
 import 'package:coconut_disease_detection/utils/constants/CCircularImage.dart';
+import 'package:coconut_disease_detection/utils/constants/colors.dart';
 import 'package:coconut_disease_detection/utils/constants/image_strings.dart';
 import 'package:coconut_disease_detection/utils/constants/sizes.dart';
 import 'package:flutter/material.dart';
@@ -56,7 +57,10 @@ class ProfileScreen extends StatelessWidget {
                       TextButton(
                           onPressed: () =>
                               controller.UploadUserProfilePicture(),
-                          child: const Text('Change Profile Photo')),
+                          child: const Text(
+                            'Change Profile Photo',
+                            style: TextStyle(color: CColors.darkergrey),
+                          )),
                     ],
                   ),
                 ),
