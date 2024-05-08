@@ -1,6 +1,9 @@
 import 'package:coconut_disease_detection/common/appbar/appbar.dart';
 import 'package:coconut_disease_detection/common/section_heading.dart';
+import 'package:coconut_disease_detection/features/authentication/screens/analyzing/analyzing.dart';
+import 'package:coconut_disease_detection/features/authentication/screens/disease_list/disease_list.dart';
 import 'package:coconut_disease_detection/features/authentication/screens/tracking/tracking.dart';
+import 'package:coconut_disease_detection/features/authentication/screens/tracking_report/tracking_report.dart';
 import 'package:coconut_disease_detection/utils/constants/colors.dart';
 import 'package:coconut_disease_detection/utils/constants/sizes.dart';
 import 'package:flutter/material.dart';
@@ -156,7 +159,8 @@ Widget _buildFourButtonGrid(BuildContext context) {
       crossAxisSpacing: 10.0, // Spacing between buttons
       children: [
         ElevatedButton(
-          onPressed: () {},
+          onPressed: () => Navigator.push(context,
+              MaterialPageRoute(builder: (context) => const TrackingReport())),
           style: ElevatedButton.styleFrom(
             backgroundColor: CColors.lightgrey,
             foregroundColor: CColors.primaryColor,
@@ -177,7 +181,8 @@ Widget _buildFourButtonGrid(BuildContext context) {
           ),
         ),
         ElevatedButton(
-          onPressed: () {},
+          onPressed: () => Navigator.push(context,
+              MaterialPageRoute(builder: (context) => const DiseaseList())),
           style: ElevatedButton.styleFrom(
             backgroundColor: CColors.lightgrey,
             foregroundColor: CColors.primaryColor,
@@ -224,7 +229,8 @@ Widget _buildFourButtonGrid(BuildContext context) {
           ),
         ),
         ElevatedButton(
-            onPressed: () {},
+            onPressed: () => Navigator.push(context,
+                MaterialPageRoute(builder: (context) => const Analyzing())),
             style: ElevatedButton.styleFrom(
               backgroundColor: CColors.lightgrey,
               foregroundColor: CColors.primaryColor,

@@ -1,7 +1,6 @@
 import 'package:coconut_disease_detection/common/appbar/appbar.dart';
 import 'package:coconut_disease_detection/features/authentication/controllers/tracking/tracking_controller.dart';
 import 'package:coconut_disease_detection/utils/constants/colors.dart';
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:get/get.dart';

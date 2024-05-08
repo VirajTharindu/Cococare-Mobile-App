@@ -3,6 +3,7 @@ import 'package:coconut_disease_detection/features/authentication/screens/diseas
 import 'package:coconut_disease_detection/features/authentication/screens/diseases/stem_bleeding.dart';
 import 'package:coconut_disease_detection/features/authentication/screens/home/home.dart';
 import 'package:coconut_disease_detection/features/authentication/screens/result/result.dart';
+import 'package:coconut_disease_detection/features/authentication/screens/tracking_report/tracking_report.dart';
 import 'package:coconut_disease_detection/features/personalization/screens/profile.dart';
 import 'package:coconut_disease_detection/utils/constants/colors.dart';
 import 'package:coconut_disease_detection/utils/helpers/helper_functions.dart';
@@ -51,6 +52,6 @@ class NavigationController extends GetxController {
     const DiseaseDetect(),
     const Result(),
     const DiseaseList(),
-    const ProfileScreen(),
+    const TrackingReport(),
   ];
 }
