@@ -115,7 +115,7 @@ class Stem_bleeding extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Reddish-Brown flow: a Tree liquid",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -139,7 +139,7 @@ class Stem_bleeding extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Lesions on Trunk: Dark spots/cracks",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -163,7 +163,7 @@ class Stem_bleeding extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Decay & Discoloration: Trunk damage",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -187,7 +187,7 @@ class Stem_bleeding extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Weakened Growth: Stunted vigor",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -211,7 +211,7 @@ class Stem_bleeding extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Leaf Symptoms: Yellowing, browning",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -235,7 +235,7 @@ class Stem_bleeding extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Secondary Infections: Pathogen vulnerability",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -255,7 +255,7 @@ class Stem_bleeding extends StatelessWidget {
                                             borderRadius:
                                                 BorderRadius.circular(20),
                                             image: const DecorationImage(
-                                              image: AssetImage(CImages.sb1),
+                                              image: AssetImage(CImages.sb5),
                                               fit: BoxFit.cover,
                                             )),
                                       ),
@@ -290,7 +290,7 @@ class Stem_bleeding extends StatelessWidget {
                                       padding:
                                           EdgeInsets.only(right: 225, top: 15),
                                       child: Text(
-                                        'Symptoms:',
+                                        'Causes:',
                                         style: TextStyle(
                                             fontSize: 16,
                                             color: CColors.black,
@@ -314,7 +314,7 @@ class Stem_bleeding extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Bacterial diseases (e.g., Leptosphaerulina)",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -338,7 +338,7 @@ class Stem_bleeding extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Nutritional deficiencies (e.g., boron)",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -362,7 +362,7 @@ class Stem_bleeding extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Fungal pathogens (e.g., Fusarium oxysporum)",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -386,7 +386,7 @@ class Stem_bleeding extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Environmental stress (e.g., waterlogging)",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -410,7 +410,7 @@ class Stem_bleeding extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Mechanical damage (e.g., from tools, animals)",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -434,7 +434,7 @@ class Stem_bleeding extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Poor cultural practices (e.g., Over-pruning )",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -454,7 +454,7 @@ class Stem_bleeding extends StatelessWidget {
                                             borderRadius:
                                                 BorderRadius.circular(20),
                                             image: const DecorationImage(
-                                              image: AssetImage(CImages.sb1),
+                                              image: AssetImage(CImages.sb6),
                                               fit: BoxFit.cover,
                                             )),
                                       ),
@@ -489,7 +489,7 @@ class Stem_bleeding extends StatelessWidget {
                                       padding:
                                           EdgeInsets.only(right: 225, top: 15),
                                       child: Text(
-                                        'Symptoms:',
+                                        'Treatments:',
                                         style: TextStyle(
                                             fontSize: 16,
                                             color: CColors.black,
@@ -513,7 +513,7 @@ class Stem_bleeding extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Prune affected parts (Remove branches)",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -537,7 +537,7 @@ class Stem_bleeding extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Apply fungicides. (Use copper-based sprays)",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -561,7 +561,7 @@ class Stem_bleeding extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Improve drainage. (Address waterloggings)",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -585,7 +585,7 @@ class Stem_bleeding extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Use lime in soil (Apply calcium carbonate)",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -609,7 +609,7 @@ class Stem_bleeding extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Antibacterial spray (Apply streptomycin)",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -633,7 +633,7 @@ class Stem_bleeding extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Inject trunk treatment (oxytetracycline)",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -653,7 +653,7 @@ class Stem_bleeding extends StatelessWidget {
                                             borderRadius:
                                                 BorderRadius.circular(20),
                                             image: const DecorationImage(
-                                              image: AssetImage(CImages.sb1),
+                                              image: AssetImage(CImages.sb7),
                                               fit: BoxFit.cover,
                                             )),
                                       ),
@@ -688,7 +688,7 @@ class Stem_bleeding extends StatelessWidget {
                                       padding:
                                           EdgeInsets.only(right: 225, top: 15),
                                       child: Text(
-                                        'Symptoms:',
+                                        'Fungicides:',
                                         style: TextStyle(
                                             fontSize: 16,
                                             color: CColors.black,
@@ -712,7 +712,7 @@ class Stem_bleeding extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Baking soda solution",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -736,7 +736,7 @@ class Stem_bleeding extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Garlic extract",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -760,7 +760,7 @@ class Stem_bleeding extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Copper oxychloride",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -784,7 +784,7 @@ class Stem_bleeding extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Bordeaux mixture",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -808,7 +808,7 @@ class Stem_bleeding extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Mancozeb",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -832,7 +832,7 @@ class Stem_bleeding extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Potassium phosphite",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -852,7 +852,7 @@ class Stem_bleeding extends StatelessWidget {
                                             borderRadius:
                                                 BorderRadius.circular(20),
                                             image: const DecorationImage(
-                                              image: AssetImage(CImages.sb1),
+                                              image: AssetImage(CImages.sb8),
                                               fit: BoxFit.cover,
                                             )),
                                       ),
@@ -887,7 +887,7 @@ class Stem_bleeding extends StatelessWidget {
                                       padding:
                                           EdgeInsets.only(right: 225, top: 15),
                                       child: Text(
-                                        'Symptoms:',
+                                        'Practises:',
                                         style: TextStyle(
                                             fontSize: 16,
                                             color: CColors.black,
@@ -911,7 +911,7 @@ class Stem_bleeding extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Prune infected parts",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -935,7 +935,7 @@ class Stem_bleeding extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Ensure good drainage",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -959,7 +959,7 @@ class Stem_bleeding extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Maintain soil fertility",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -983,7 +983,7 @@ class Stem_bleeding extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Regular tree inspection",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -1007,7 +1007,7 @@ class Stem_bleeding extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Keep area clean",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -1031,7 +1031,7 @@ class Stem_bleeding extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Use fungicides, bactericides",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -1051,7 +1051,7 @@ class Stem_bleeding extends StatelessWidget {
                                             borderRadius:
                                                 BorderRadius.circular(20),
                                             image: const DecorationImage(
-                                              image: AssetImage(CImages.sb1),
+                                              image: AssetImage(CImages.sb9),
                                               fit: BoxFit.cover,
                                             )),
                                       ),
@@ -1075,7 +1075,7 @@ class Stem_bleeding extends StatelessWidget {
 
                         GestureDetector(
                           onTap: () => _launchURL(
-                              'https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID'),
+                              'https://youtu.be/zKD9fgdYp_w?si=uofzGLx1NG-yF2Bn'),
                           child: const Text(
                             'Learn more about Stem Bleeding on YouTube',
                             style: TextStyle(
@@ -1128,7 +1128,7 @@ Widget _buildFourImageGrid() {
   );
 }
 
-void _launchURL(String url) async {
+Future<void> _launchURL(String url) async {
   if (await canLaunchUrl(Uri.parse(url))) {
     await launchUrl(Uri.parse(url));
   } else {

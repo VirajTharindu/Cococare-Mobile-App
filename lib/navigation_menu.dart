@@ -33,7 +33,7 @@ class NavigationMenu extends StatelessWidget {
 
           destinations: const [
             NavigationDestination(icon: Icon(Iconsax.home), label: 'Home'),
-            NavigationDestination(icon: Icon(Iconsax.scan), label: 'Scan'),
+            NavigationDestination(icon: Icon(Iconsax.additem), label: 'Add'),
             NavigationDestination(
                 icon: Icon(Iconsax.information), label: 'Support'),
             NavigationDestination(icon: Icon(Iconsax.user), label: 'Profile'),
@@ -52,6 +52,6 @@ class NavigationController extends GetxController {
     const DiseaseDetect(),
     const Result(),
     const DiseaseList(),
-    const TrackingReport(),
+    const ProfileScreen(),
   ];
 }

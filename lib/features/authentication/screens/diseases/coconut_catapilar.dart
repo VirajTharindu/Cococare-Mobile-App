@@ -35,7 +35,7 @@ class Coconut_Catapilar extends StatelessWidget {
             const SizedBox(height: CSizes.spaceBtwSections),
             // Add SizedBox for spacing
             const Text(
-              'Stem Bleeding', // Heading text
+              'Cocount Caterpilar Infection', // Heading text
               style: TextStyle(
                 fontSize: 20.0,
                 fontWeight: FontWeight.bold,
@@ -43,7 +43,7 @@ class Coconut_Catapilar extends StatelessWidget {
             ),
 
             const Text(
-              'Thielaviopsis paradoxa', // Subtitle text
+              'Opisina arenosella Walker', // Subtitle text
               style: TextStyle(
                 fontSize: 16.0,
                 fontWeight: FontWeight.bold,
@@ -115,7 +115,7 @@ class Coconut_Catapilar extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Leaf skeletonization",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -139,7 +139,7 @@ class Coconut_Catapilar extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Presence of caterpillar frass",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -163,7 +163,7 @@ class Coconut_Catapilar extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Irregular leaf edges",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -187,7 +187,7 @@ class Coconut_Catapilar extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Chewed or damaged foliage",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -211,7 +211,7 @@ class Coconut_Catapilar extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Presence of caterpillar silk threads",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -235,7 +235,7 @@ class Coconut_Catapilar extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Leaf defoliation",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -255,7 +255,7 @@ class Coconut_Catapilar extends StatelessWidget {
                                             borderRadius:
                                                 BorderRadius.circular(20),
                                             image: const DecorationImage(
-                                              image: AssetImage(CImages.sb1),
+                                              image: AssetImage(CImages.cci5),
                                               fit: BoxFit.cover,
                                             )),
                                       ),
@@ -290,7 +290,7 @@ class Coconut_Catapilar extends StatelessWidget {
                                       padding:
                                           EdgeInsets.only(right: 225, top: 15),
                                       child: Text(
-                                        'Symptoms:',
+                                        'Causes:',
                                         style: TextStyle(
                                             fontSize: 16,
                                             color: CColors.black,
@@ -314,7 +314,7 @@ class Coconut_Catapilar extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Poor sanitation practices",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -338,7 +338,7 @@ class Coconut_Catapilar extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Presence of other infested plants nearby",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -362,7 +362,7 @@ class Coconut_Catapilar extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Favorable environmental conditions",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -386,7 +386,7 @@ class Coconut_Catapilar extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Lack of natural predators",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -410,7 +410,7 @@ class Coconut_Catapilar extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Overuse of chemicals leading to resistance",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -434,7 +434,7 @@ class Coconut_Catapilar extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Infected planting material",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -454,7 +454,7 @@ class Coconut_Catapilar extends StatelessWidget {
                                             borderRadius:
                                                 BorderRadius.circular(20),
                                             image: const DecorationImage(
-                                              image: AssetImage(CImages.sb1),
+                                              image: AssetImage(CImages.cci6),
                                               fit: BoxFit.cover,
                                             )),
                                       ),
@@ -489,7 +489,7 @@ class Coconut_Catapilar extends StatelessWidget {
                                       padding:
                                           EdgeInsets.only(right: 225, top: 15),
                                       child: Text(
-                                        'Symptoms:',
+                                        'Treatment:',
                                         style: TextStyle(
                                             fontSize: 16,
                                             color: CColors.black,
@@ -513,7 +513,7 @@ class Coconut_Catapilar extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Manual removal of caterpillars",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -537,7 +537,7 @@ class Coconut_Catapilar extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Biological control using natural predators",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -561,7 +561,7 @@ class Coconut_Catapilar extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Application of botanical insecticides",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -585,7 +585,7 @@ class Coconut_Catapilar extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Cultural practices as pruning affected parts",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -609,7 +609,7 @@ class Coconut_Catapilar extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Use of chemical pesticides as a last resort",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -633,7 +633,7 @@ class Coconut_Catapilar extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Application of microbial insecticides",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -653,7 +653,7 @@ class Coconut_Catapilar extends StatelessWidget {
                                             borderRadius:
                                                 BorderRadius.circular(20),
                                             image: const DecorationImage(
-                                              image: AssetImage(CImages.sb1),
+                                              image: AssetImage(CImages.cci7),
                                               fit: BoxFit.cover,
                                             )),
                                       ),
@@ -688,7 +688,7 @@ class Coconut_Catapilar extends StatelessWidget {
                                       padding:
                                           EdgeInsets.only(right: 225, top: 15),
                                       child: Text(
-                                        'Symptoms:',
+                                        'Pesticides:',
                                         style: TextStyle(
                                             fontSize: 16,
                                             color: CColors.black,
@@ -712,7 +712,7 @@ class Coconut_Catapilar extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Neem oil (natural)",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -736,7 +736,7 @@ class Coconut_Catapilar extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Bacillus thuringiensis (Bt) (natural)",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -760,7 +760,7 @@ class Coconut_Catapilar extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Spinosad (natural)",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -784,7 +784,7 @@ class Coconut_Catapilar extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Chlorpyrifos (chemical)",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -808,7 +808,7 @@ class Coconut_Catapilar extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Cypermethrin (chemical)",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -832,7 +832,7 @@ class Coconut_Catapilar extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Carbaryl (chemical)",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -852,7 +852,7 @@ class Coconut_Catapilar extends StatelessWidget {
                                             borderRadius:
                                                 BorderRadius.circular(20),
                                             image: const DecorationImage(
-                                              image: AssetImage(CImages.sb1),
+                                              image: AssetImage(CImages.cci8),
                                               fit: BoxFit.cover,
                                             )),
                                       ),
@@ -887,7 +887,7 @@ class Coconut_Catapilar extends StatelessWidget {
                                       padding:
                                           EdgeInsets.only(right: 225, top: 15),
                                       child: Text(
-                                        'Symptoms:',
+                                        'Practises:',
                                         style: TextStyle(
                                             fontSize: 16,
                                             color: CColors.black,
@@ -911,7 +911,7 @@ class Coconut_Catapilar extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Regular inspection of coconut trees",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -935,7 +935,7 @@ class Coconut_Catapilar extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Use of pheromone traps for monitoring",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -959,7 +959,7 @@ class Coconut_Catapilar extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Intercropping with repellent plants",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -983,7 +983,7 @@ class Coconut_Catapilar extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Pruning of affected branches",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -1007,7 +1007,7 @@ class Coconut_Catapilar extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Application of biopesticides",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -1031,7 +1031,7 @@ class Coconut_Catapilar extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Implementing pest management strategies",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -1051,7 +1051,7 @@ class Coconut_Catapilar extends StatelessWidget {
                                             borderRadius:
                                                 BorderRadius.circular(20),
                                             image: const DecorationImage(
-                                              image: AssetImage(CImages.sb1),
+                                              image: AssetImage(CImages.cci9),
                                               fit: BoxFit.cover,
                                             )),
                                       ),
@@ -1075,9 +1075,9 @@ class Coconut_Catapilar extends StatelessWidget {
 
                         GestureDetector(
                           onTap: () => _launchURL(
-                              'https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID'),
+                              'https://youtu.be/ZLxyOFtA1nw?si=k_8CPGPuedNUrbDo'),
                           child: const Text(
-                            'Learn more about Stem Bleeding on YouTube',
+                            'Learn more about CCI on YouTube',
                             style: TextStyle(
                               fontSize: 16.0,
                               fontWeight: FontWeight.bold,
@@ -1109,19 +1109,19 @@ Widget _buildFourImageGrid() {
     crossAxisSpacing: 0, // Spacing between buttons
     children: [
       Image.asset(
-        CImages.sb1,
+        CImages.cci1,
         fit: BoxFit.cover,
       ),
       Image.asset(
-        CImages.sb2,
+        CImages.cci2,
         fit: BoxFit.cover,
       ),
       Image.asset(
-        CImages.sb3,
+        CImages.cci3,
         fit: BoxFit.cover,
       ),
       Image.asset(
-        CImages.sb4,
+        CImages.cci4,
         fit: BoxFit.cover,
       ),
     ],

@@ -4,6 +4,7 @@ import 'package:coconut_disease_detection/features/authentication/screens/analyz
 import 'package:coconut_disease_detection/features/authentication/screens/disease_list/disease_list.dart';
 import 'package:coconut_disease_detection/features/authentication/screens/tracking/tracking.dart';
 import 'package:coconut_disease_detection/features/authentication/screens/tracking_report/tracking_report.dart';
+import 'package:coconut_disease_detection/features/authentication/screens/create_track_sub_collections/create_track_sub_coll.dart';
 import 'package:coconut_disease_detection/utils/constants/colors.dart';
 import 'package:coconut_disease_detection/utils/constants/sizes.dart';
 import 'package:flutter/material.dart';
@@ -160,10 +161,10 @@ Widget _buildFourButtonGrid(BuildContext context) {
       children: [
         ElevatedButton(
           onPressed: () => Navigator.push(context,
-              MaterialPageRoute(builder: (context) => const TrackingReport())),
+              MaterialPageRoute(builder: (context) => const DiseaseList())),
           style: ElevatedButton.styleFrom(
-            backgroundColor: CColors.lightgrey,
-            foregroundColor: CColors.primaryColor,
+            backgroundColor: CColors.primaryColor,
+            foregroundColor: CColors.lightgrey,
             side: BorderSide(color: CColors.grey.withOpacity(0.7)),
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(20.0),
@@ -173,45 +174,19 @@ Widget _buildFourButtonGrid(BuildContext context) {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: const [
-              Icon(Iconsax.message_tick, size: 30.0, color: Colors.black),
+              Icon(Iconsax.shield_search, size: 30.0, color: CColors.black),
               SizedBox(height: 5.0),
-              Text("Messaging",
-                  style: TextStyle(fontSize: 12.0, color: CColors.darkergrey)),
+              Text("Controlling Measures",
+                  style: TextStyle(fontSize: 12.0, color: CColors.white)),
             ],
           ),
         ),
         ElevatedButton(
           onPressed: () => Navigator.push(context,
-              MaterialPageRoute(builder: (context) => const DiseaseList())),
+              MaterialPageRoute(builder: (context) => const Tracking())),
           style: ElevatedButton.styleFrom(
-            backgroundColor: CColors.lightgrey,
-            foregroundColor: CColors.primaryColor,
-            side: BorderSide(color: CColors.grey.withOpacity(0.7)),
-            shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(20.0),
-            ),
-            padding: const EdgeInsets.all(10.0),
-          ),
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: const [
-              Icon(Iconsax.shield_search, size: 30.0, color: Colors.black),
-              SizedBox(height: 5.0),
-              Text(
-                "Controlling Measures",
-                style: TextStyle(fontSize: 12.0, color: CColors.darkergrey),
-              ),
-            ],
-          ),
-        ),
-        ElevatedButton(
-          onPressed: () =>
-              // Navigate to the tracking screen
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => const Tracking())),
-          style: ElevatedButton.styleFrom(
-            backgroundColor: CColors.lightgrey,
-            foregroundColor: CColors.primaryColor,
+            backgroundColor: CColors.primaryColor,
+            foregroundColor: CColors.lightgrey,
             side: BorderSide(color: CColors.grey.withOpacity(0.7)),
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(20.0),
@@ -223,8 +198,36 @@ Widget _buildFourButtonGrid(BuildContext context) {
             children: const [
               Icon(Iconsax.note_2, size: 30.0, color: Colors.black),
               SizedBox(height: 5.0),
-              Text("Tracking",
-                  style: TextStyle(fontSize: 12.0, color: CColors.darkergrey)),
+              Text(
+                "Tracking",
+                style: TextStyle(fontSize: 12.0, color: CColors.white),
+              ),
+            ],
+          ),
+        ),
+        ElevatedButton(
+          onPressed: () =>
+              // Navigate to the tracking screen
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) => const TrackingReport())),
+          style: ElevatedButton.styleFrom(
+            backgroundColor: CColors.primaryColor,
+            foregroundColor: CColors.lightgrey,
+            side: BorderSide(color: CColors.grey.withOpacity(0.7)),
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(20.0),
+            ),
+            padding: const EdgeInsets.all(10.0),
+          ),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: const [
+              Icon(Iconsax.data4, size: 30.0, color: Colors.black),
+              SizedBox(height: 5.0),
+              Text("Report",
+                  style: TextStyle(fontSize: 12.0, color: CColors.white)),
             ],
           ),
         ),
@@ -232,8 +235,8 @@ Widget _buildFourButtonGrid(BuildContext context) {
             onPressed: () => Navigator.push(context,
                 MaterialPageRoute(builder: (context) => const Analyzing())),
             style: ElevatedButton.styleFrom(
-              backgroundColor: CColors.lightgrey,
-              foregroundColor: CColors.primaryColor,
+              backgroundColor: CColors.primaryColor,
+              foregroundColor: CColors.lightgrey,
               side: BorderSide(color: CColors.grey.withOpacity(0.7)),
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(20.0),
@@ -243,11 +246,10 @@ Widget _buildFourButtonGrid(BuildContext context) {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: const [
-                Icon(Iconsax.user, size: 30.0, color: Colors.black),
+                Icon(Iconsax.chart_25, size: 30.0, color: Colors.black),
                 SizedBox(height: 5.0),
-                Text("User Profile",
-                    style:
-                        TextStyle(fontSize: 12.0, color: CColors.darkergrey)),
+                Text("Analysis",
+                    style: TextStyle(fontSize: 12.0, color: CColors.white)),
               ],
             ))
       ]);

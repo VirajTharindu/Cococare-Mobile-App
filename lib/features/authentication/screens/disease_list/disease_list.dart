@@ -24,78 +24,85 @@ class DiseaseList extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: const CAppBar(
-        showBackArrow: true,
-        title: Text("Disease List"),
-      ),
-      body: SingleChildScrollView(
-        child: Column(
-          children: [
-            ListView.builder(
-              shrinkWrap: true,
-              itemCount: diseaseItems.length,
-              itemBuilder: (context, index) {
-                final item = diseaseItems[index];
-                return ClipRRect(
-                    borderRadius: BorderRadius.circular(20),
-                    child: Material(
-                      color: Colors.transparent,
-                      child: InkWell(
-                        onTap: () {
-                          // Navigate to the respective disease screen based on the disease name
-                          switch (item.diseaseName) {
-                            case 'CCI':
-                              Navigator.pushNamed(context, '/cci');
-                              break;
-                            case 'Bud Rot':
-                              Navigator.pushNamed(context, '/bud_rot');
-                              break;
-                            case 'Leaf Rot':
-                              Navigator.pushNamed(context, '/leaf_rot');
-                              break;
-                            case 'Grey Leaf':
-                              Navigator.pushNamed(context, '/grey_leaf');
-                              break;
-                            case 'Stem Bleeding':
-                              Navigator.pushNamed(context, '/stem_bleeding');
-                              break;
-                            default:
-                              break;
-                          }
-                        },
-                        splashColor: CColors.primaryColor,
-                        child: Container(
-                          decoration: BoxDecoration(
-                            color: CColors.grey.withOpacity(0.7),
+    return WillPopScope(
+      onWillPop: () async {
+        // Navigate back to the home page when the back button is pressed
+        Navigator.popUntil(context, ModalRoute.withName('/disease_detect'));
+        return true;
+      },
+      child: Scaffold(
+        appBar: const CAppBar(
+          showBackArrow: true,
+          title: Text("Disease List"),
+        ),
+        body: SingleChildScrollView(
+          child: Column(
+            children: [
+              ListView.builder(
+                shrinkWrap: true,
+                itemCount: diseaseItems.length,
+                itemBuilder: (context, index) {
+                  final item = diseaseItems[index];
+                  return ClipRRect(
+                      borderRadius: BorderRadius.circular(20),
+                      child: Material(
+                        color: Colors.transparent,
+                        child: InkWell(
+                          onTap: () {
+                            // Navigate to the respective disease screen based on the disease name
+                            switch (item.diseaseName) {
+                              case 'CCI':
+                                Navigator.pushNamed(context, '/cci');
+                                break;
+                              case 'Bud Rot':
+                                Navigator.pushNamed(context, '/bud_rot');
+                                break;
+                              case 'Leaf Rot':
+                                Navigator.pushNamed(context, '/leaf_rot');
+                                break;
+                              case 'Grey Leaf':
+                                Navigator.pushNamed(context, '/grey_leaf');
+                                break;
+                              case 'Stem Bleeding':
+                                Navigator.pushNamed(context, '/stem_bleeding');
+                                break;
+                              default:
+                                break;
+                            }
+                          },
+                          splashColor: CColors.primaryColor,
+                          child: Container(
+                            decoration: BoxDecoration(
+                              color: CColors.grey.withOpacity(0.7),
 
-                            border: Border.all(
-                                color: Colors.grey
-                                    .withOpacity(0.7)), // Border color
-                            borderRadius: BorderRadius.circular(20.0),
-                            // Border radius
-                          ),
-                          child: ListTile(
-                            tileColor: Colors.transparent,
-                            // Set tile color
-                            contentPadding: const EdgeInsets.symmetric(
-                              horizontal: 18.0,
-                              vertical: 22.0,
+                              border: Border.all(
+                                  color: Colors.grey
+                                      .withOpacity(0.7)), // Border color
+                              borderRadius: BorderRadius.circular(20.0),
+                              // Border radius
                             ),
-                            leading: Image.asset(
-                              'assets/images/${item.imageName}',
-                              width: 220,
-                              height: 70,
-                              fit: BoxFit.cover,
+                            child: ListTile(
+                              tileColor: Colors.transparent,
+                              // Set tile color
+                              contentPadding: const EdgeInsets.symmetric(
+                                horizontal: 18.0,
+                                vertical: 22.0,
+                              ),
+                              leading: Image.asset(
+                                'assets/images/${item.imageName}',
+                                width: 220,
+                                height: 70,
+                                fit: BoxFit.cover,
+                              ),
+                              title: Text(item.diseaseName),
                             ),
-                            title: Text(item.diseaseName),
                           ),
                         ),
-                      ),
-                    ));
-              },
-            ),
-          ],
+                      ));
+                },
+              ),
+            ],
+          ),
         ),
       ),
     );

@@ -35,7 +35,7 @@ class Grey_Leaf_Spot extends StatelessWidget {
             const SizedBox(height: CSizes.spaceBtwSections),
             // Add SizedBox for spacing
             const Text(
-              'Stem Bleeding', // Heading text
+              'Grey Leaf Spot', // Heading text
               style: TextStyle(
                 fontSize: 20.0,
                 fontWeight: FontWeight.bold,
@@ -43,7 +43,7 @@ class Grey_Leaf_Spot extends StatelessWidget {
             ),
 
             const Text(
-              'Thielaviopsis paradoxa', // Subtitle text
+              'Pestalotiopsis palmarum', // Subtitle text
               style: TextStyle(
                 fontSize: 16.0,
                 fontWeight: FontWeight.bold,
@@ -115,7 +115,7 @@ class Grey_Leaf_Spot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Brownish-Gray Lesions",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -139,7 +139,7 @@ class Grey_Leaf_Spot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Elongated Necrotic Spots",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -163,7 +163,7 @@ class Grey_Leaf_Spot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Yellowing Around Lesions",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -187,7 +187,7 @@ class Grey_Leaf_Spot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Premature Leaf Shedding ",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -211,7 +211,7 @@ class Grey_Leaf_Spot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Stunted Leaf Growth",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -235,7 +235,7 @@ class Grey_Leaf_Spot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Reduced Fruit Production",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -255,7 +255,7 @@ class Grey_Leaf_Spot extends StatelessWidget {
                                             borderRadius:
                                                 BorderRadius.circular(20),
                                             image: const DecorationImage(
-                                              image: AssetImage(CImages.sb1),
+                                              image: AssetImage(CImages.gls5),
                                               fit: BoxFit.cover,
                                             )),
                                       ),
@@ -290,7 +290,7 @@ class Grey_Leaf_Spot extends StatelessWidget {
                                       padding:
                                           EdgeInsets.only(right: 225, top: 15),
                                       child: Text(
-                                        'Symptoms:',
+                                        'Causes:',
                                         style: TextStyle(
                                             fontSize: 16,
                                             color: CColors.black,
@@ -314,7 +314,7 @@ class Grey_Leaf_Spot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Fungal pathogen Cercospora spp.",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -338,7 +338,7 @@ class Grey_Leaf_Spot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Warm and humid climate",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -362,7 +362,7 @@ class Grey_Leaf_Spot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Poor air circulation among trees",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -386,7 +386,7 @@ class Grey_Leaf_Spot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Overhead irrigation",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -410,7 +410,7 @@ class Grey_Leaf_Spot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "High humidity levels",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -434,7 +434,7 @@ class Grey_Leaf_Spot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Infected plant debris and residue",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -454,7 +454,7 @@ class Grey_Leaf_Spot extends StatelessWidget {
                                             borderRadius:
                                                 BorderRadius.circular(20),
                                             image: const DecorationImage(
-                                              image: AssetImage(CImages.sb1),
+                                              image: AssetImage(CImages.gls6),
                                               fit: BoxFit.cover,
                                             )),
                                       ),
@@ -489,7 +489,7 @@ class Grey_Leaf_Spot extends StatelessWidget {
                                       padding:
                                           EdgeInsets.only(right: 225, top: 15),
                                       child: Text(
-                                        'Symptoms:',
+                                        'Treatments:',
                                         style: TextStyle(
                                             fontSize: 16,
                                             color: CColors.black,
@@ -513,7 +513,7 @@ class Grey_Leaf_Spot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Copper Fungicide Sprays",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -537,7 +537,7 @@ class Grey_Leaf_Spot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Pruning infected leaves.",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -561,7 +561,7 @@ class Grey_Leaf_Spot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Proper irrigation practices.",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -585,7 +585,7 @@ class Grey_Leaf_Spot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Fertilizer application for plant health",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -609,7 +609,7 @@ class Grey_Leaf_Spot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Removing infected plant debris",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -633,7 +633,7 @@ class Grey_Leaf_Spot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Implementing crop rotation",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -653,7 +653,7 @@ class Grey_Leaf_Spot extends StatelessWidget {
                                             borderRadius:
                                                 BorderRadius.circular(20),
                                             image: const DecorationImage(
-                                              image: AssetImage(CImages.sb1),
+                                              image: AssetImage(CImages.gls7),
                                               fit: BoxFit.cover,
                                             )),
                                       ),
@@ -688,7 +688,7 @@ class Grey_Leaf_Spot extends StatelessWidget {
                                       padding:
                                           EdgeInsets.only(right: 225, top: 15),
                                       child: Text(
-                                        'Symptoms:',
+                                        'Fungicides:',
                                         style: TextStyle(
                                             fontSize: 16,
                                             color: CColors.black,
@@ -712,7 +712,7 @@ class Grey_Leaf_Spot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Potassium bicarbonate (natural fungicide)",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -736,7 +736,7 @@ class Grey_Leaf_Spot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Copper-based fungicides (chemical)",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -760,7 +760,7 @@ class Grey_Leaf_Spot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Sulfur-based fungicides (chemical)",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -784,7 +784,7 @@ class Grey_Leaf_Spot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Balanced NPK fertilizers (chemical)",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -808,7 +808,7 @@ class Grey_Leaf_Spot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Tebuconazole + Hexaconazole (chemical)",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -832,7 +832,7 @@ class Grey_Leaf_Spot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Propiconazole Fungicide (chemical)",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -852,7 +852,7 @@ class Grey_Leaf_Spot extends StatelessWidget {
                                             borderRadius:
                                                 BorderRadius.circular(20),
                                             image: const DecorationImage(
-                                              image: AssetImage(CImages.sb1),
+                                              image: AssetImage(CImages.gls8),
                                               fit: BoxFit.cover,
                                             )),
                                       ),
@@ -887,7 +887,7 @@ class Grey_Leaf_Spot extends StatelessWidget {
                                       padding:
                                           EdgeInsets.only(right: 225, top: 15),
                                       child: Text(
-                                        'Symptoms:',
+                                        'Practises:',
                                         style: TextStyle(
                                             fontSize: 16,
                                             color: CColors.black,
@@ -911,7 +911,7 @@ class Grey_Leaf_Spot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Regular inspection of leaves",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -935,7 +935,7 @@ class Grey_Leaf_Spot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Proper spacing between trees for airflow",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -959,7 +959,7 @@ class Grey_Leaf_Spot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Pruning of affected leaves and branches.",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -983,7 +983,7 @@ class Grey_Leaf_Spot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Application of fungicides in early stages",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -1007,7 +1007,7 @@ class Grey_Leaf_Spot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Maintain soil moisture & reduce splash-back",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -1031,7 +1031,7 @@ class Grey_Leaf_Spot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Proper drainage to prevent waterlogging.",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -1051,7 +1051,7 @@ class Grey_Leaf_Spot extends StatelessWidget {
                                             borderRadius:
                                                 BorderRadius.circular(20),
                                             image: const DecorationImage(
-                                              image: AssetImage(CImages.sb1),
+                                              image: AssetImage(CImages.gls9),
                                               fit: BoxFit.cover,
                                             )),
                                       ),
@@ -1075,9 +1075,9 @@ class Grey_Leaf_Spot extends StatelessWidget {
 
                         GestureDetector(
                           onTap: () => _launchURL(
-                              'https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID'),
+                              'https://youtu.be/8UvIZKjR93k?si=jjEMI2BYa7AQUzyj'),
                           child: const Text(
-                            'Learn more about Stem Bleeding on YouTube',
+                            'Learn more about Grey Leaf Spot on YouTube',
                             style: TextStyle(
                               fontSize: 16.0,
                               fontWeight: FontWeight.bold,
@@ -1109,19 +1109,19 @@ Widget _buildFourImageGrid() {
     crossAxisSpacing: 0, // Spacing between buttons
     children: [
       Image.asset(
-        CImages.sb1,
+        CImages.gls1,
         fit: BoxFit.cover,
       ),
       Image.asset(
-        CImages.sb2,
+        CImages.gls2,
         fit: BoxFit.cover,
       ),
       Image.asset(
-        CImages.sb3,
+        CImages.gls3,
         fit: BoxFit.cover,
       ),
       Image.asset(
-        CImages.sb4,
+        CImages.gls4,
         fit: BoxFit.cover,
       ),
     ],

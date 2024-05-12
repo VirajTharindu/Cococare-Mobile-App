@@ -35,7 +35,7 @@ class Leaf_Rot extends StatelessWidget {
             const SizedBox(height: CSizes.spaceBtwSections),
             // Add SizedBox for spacing
             const Text(
-              'Stem Bleeding', // Heading text
+              'Leaf Rot', // Heading text
               style: TextStyle(
                 fontSize: 20.0,
                 fontWeight: FontWeight.bold,
@@ -43,7 +43,7 @@ class Leaf_Rot extends StatelessWidget {
             ),
 
             const Text(
-              'Thielaviopsis paradoxa', // Subtitle text
+              'Colletotrichum gloeosporioides', // Subtitle text
               style: TextStyle(
                 fontSize: 16.0,
                 fontWeight: FontWeight.bold,
@@ -115,7 +115,7 @@ class Leaf_Rot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Wilting leaves: Drooping or sagging foliage.",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -139,7 +139,7 @@ class Leaf_Rot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Discolored spots: Brown or yellow patches",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -163,7 +163,7 @@ class Leaf_Rot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Leaf necrosis: Death of leaf tissue",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -187,7 +187,7 @@ class Leaf_Rot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Stunted growth: Reduced plant development.",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -211,7 +211,7 @@ class Leaf_Rot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Foul odor: Unpleasant smell from leaves",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -235,7 +235,7 @@ class Leaf_Rot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Leaf shedding: Premature loss of foliage.",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -255,7 +255,7 @@ class Leaf_Rot extends StatelessWidget {
                                             borderRadius:
                                                 BorderRadius.circular(20),
                                             image: const DecorationImage(
-                                              image: AssetImage(CImages.sb1),
+                                              image: AssetImage(CImages.lr5),
                                               fit: BoxFit.cover,
                                             )),
                                       ),
@@ -290,7 +290,7 @@ class Leaf_Rot extends StatelessWidget {
                                       padding:
                                           EdgeInsets.only(right: 225, top: 15),
                                       child: Text(
-                                        'Symptoms:',
+                                        'Causes:',
                                         style: TextStyle(
                                             fontSize: 16,
                                             color: CColors.black,
@@ -314,7 +314,7 @@ class Leaf_Rot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Fungal pathogens: Phytophthora spp",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -338,7 +338,7 @@ class Leaf_Rot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Excessive moisture: Overwatering",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -362,7 +362,7 @@ class Leaf_Rot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Poor drainage: Water accumulation.",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -386,7 +386,7 @@ class Leaf_Rot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Soil compaction: Root compression",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -410,7 +410,7 @@ class Leaf_Rot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Infected tools: Pruning contamination",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -434,7 +434,7 @@ class Leaf_Rot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Nutrient imbalance: Fertilizer issues",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -454,7 +454,7 @@ class Leaf_Rot extends StatelessWidget {
                                             borderRadius:
                                                 BorderRadius.circular(20),
                                             image: const DecorationImage(
-                                              image: AssetImage(CImages.sb1),
+                                              image: AssetImage(CImages.lr6),
                                               fit: BoxFit.cover,
                                             )),
                                       ),
@@ -489,7 +489,7 @@ class Leaf_Rot extends StatelessWidget {
                                       padding:
                                           EdgeInsets.only(right: 225, top: 15),
                                       child: Text(
-                                        'Symptoms:',
+                                        'Treatments:',
                                         style: TextStyle(
                                             fontSize: 16,
                                             color: CColors.black,
@@ -513,7 +513,7 @@ class Leaf_Rot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Fungicides: Apply appropriate chemicals.",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -537,7 +537,7 @@ class Leaf_Rot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Pruning: Remove affected leaves",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -561,7 +561,7 @@ class Leaf_Rot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Soil drainage: Improve water flow",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -585,7 +585,7 @@ class Leaf_Rot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Air circulation: Enhance ventilation",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -609,7 +609,7 @@ class Leaf_Rot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Cultural practices: Adjust watering",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -633,7 +633,7 @@ class Leaf_Rot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Disease-resistant varieties: resistant strains.",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -653,7 +653,7 @@ class Leaf_Rot extends StatelessWidget {
                                             borderRadius:
                                                 BorderRadius.circular(20),
                                             image: const DecorationImage(
-                                              image: AssetImage(CImages.sb1),
+                                              image: AssetImage(CImages.lr7),
                                               fit: BoxFit.cover,
                                             )),
                                       ),
@@ -688,7 +688,7 @@ class Leaf_Rot extends StatelessWidget {
                                       padding:
                                           EdgeInsets.only(right: 225, top: 15),
                                       child: Text(
-                                        'Symptoms:',
+                                        'Fungicides:',
                                         style: TextStyle(
                                             fontSize: 16,
                                             color: CColors.black,
@@ -712,7 +712,7 @@ class Leaf_Rot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Compost Mulch",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -736,7 +736,7 @@ class Leaf_Rot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Potassium bicarbonate",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -760,7 +760,7 @@ class Leaf_Rot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Baking Soda Solution ",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -784,7 +784,7 @@ class Leaf_Rot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Copper Fungicide",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -808,7 +808,7 @@ class Leaf_Rot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Propiconazole Spray",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -832,7 +832,7 @@ class Leaf_Rot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Tebuconazole Mix ",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -852,7 +852,7 @@ class Leaf_Rot extends StatelessWidget {
                                             borderRadius:
                                                 BorderRadius.circular(20),
                                             image: const DecorationImage(
-                                              image: AssetImage(CImages.sb1),
+                                              image: AssetImage(CImages.lr8),
                                               fit: BoxFit.cover,
                                             )),
                                       ),
@@ -887,7 +887,7 @@ class Leaf_Rot extends StatelessWidget {
                                       padding:
                                           EdgeInsets.only(right: 225, top: 15),
                                       child: Text(
-                                        'Symptoms:',
+                                        'Practises:',
                                         style: TextStyle(
                                             fontSize: 16,
                                             color: CColors.black,
@@ -911,7 +911,7 @@ class Leaf_Rot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Prune affected leaves regularly.",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -935,7 +935,7 @@ class Leaf_Rot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Maintain good airflow around trees",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -959,7 +959,7 @@ class Leaf_Rot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Avoid overwatering.",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -983,7 +983,7 @@ class Leaf_Rot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Use disease-resistant coconut varieties",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -1007,7 +1007,7 @@ class Leaf_Rot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Monitor for early signs of infection",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -1031,7 +1031,7 @@ class Leaf_Rot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Apply organic mulch to suppress pathogens",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -1051,7 +1051,7 @@ class Leaf_Rot extends StatelessWidget {
                                             borderRadius:
                                                 BorderRadius.circular(20),
                                             image: const DecorationImage(
-                                              image: AssetImage(CImages.sb1),
+                                              image: AssetImage(CImages.lr9),
                                               fit: BoxFit.cover,
                                             )),
                                       ),
@@ -1075,9 +1075,9 @@ class Leaf_Rot extends StatelessWidget {
 
                         GestureDetector(
                           onTap: () => _launchURL(
-                              'https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID'),
+                              'https://youtu.be/Aoz8mqcXoqY?si=LjNOSCoXMagGJWpO'),
                           child: const Text(
-                            'Learn more about Stem Bleeding on YouTube',
+                            'Learn more about Leaf Rot on YouTube',
                             style: TextStyle(
                               fontSize: 16.0,
                               fontWeight: FontWeight.bold,
@@ -1109,19 +1109,19 @@ Widget _buildFourImageGrid() {
     crossAxisSpacing: 0, // Spacing between buttons
     children: [
       Image.asset(
-        CImages.sb1,
+        CImages.lr1,
         fit: BoxFit.cover,
       ),
       Image.asset(
-        CImages.sb2,
+        CImages.lr2,
         fit: BoxFit.cover,
       ),
       Image.asset(
-        CImages.sb3,
+        CImages.lr3,
         fit: BoxFit.cover,
       ),
       Image.asset(
-        CImages.sb4,
+        CImages.lr4,
         fit: BoxFit.cover,
       ),
     ],

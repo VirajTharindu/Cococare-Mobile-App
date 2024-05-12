@@ -1,3 +1,4 @@
+import 'package:coconut_disease_detection/utils/constants/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';

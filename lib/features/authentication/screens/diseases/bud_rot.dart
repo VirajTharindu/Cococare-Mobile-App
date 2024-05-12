@@ -35,7 +35,7 @@ class Bud_Rot extends StatelessWidget {
             const SizedBox(height: CSizes.spaceBtwSections),
             // Add SizedBox for spacing
             const Text(
-              'Stem Bleeding', // Heading text
+              'Bud Rot', // Heading text
               style: TextStyle(
                 fontSize: 20.0,
                 fontWeight: FontWeight.bold,
@@ -43,7 +43,7 @@ class Bud_Rot extends StatelessWidget {
             ),
 
             const Text(
-              'Thielaviopsis paradoxa', // Subtitle text
+              'Phytophthora palmivora', // Subtitle text
               style: TextStyle(
                 fontSize: 16.0,
                 fontWeight: FontWeight.bold,
@@ -115,7 +115,7 @@ class Bud_Rot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Wilting or drooping of young leaves",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -139,7 +139,7 @@ class Bud_Rot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Discoloration or yellowing of foliage",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -163,7 +163,7 @@ class Bud_Rot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Foul odor emanating from affected buds",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -187,7 +187,7 @@ class Bud_Rot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Softening or rotting of the bud tissue",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -211,7 +211,7 @@ class Bud_Rot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Presence of dark or brown lesions on buds",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -235,7 +235,7 @@ class Bud_Rot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Premature shedding of affected fronds",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -255,7 +255,7 @@ class Bud_Rot extends StatelessWidget {
                                             borderRadius:
                                                 BorderRadius.circular(20),
                                             image: const DecorationImage(
-                                              image: AssetImage(CImages.sb1),
+                                              image: AssetImage(CImages.br6),
                                               fit: BoxFit.cover,
                                             )),
                                       ),
@@ -290,7 +290,7 @@ class Bud_Rot extends StatelessWidget {
                                       padding:
                                           EdgeInsets.only(right: 225, top: 15),
                                       child: Text(
-                                        'Symptoms:',
+                                        'Causes:',
                                         style: TextStyle(
                                             fontSize: 16,
                                             color: CColors.black,
@@ -314,7 +314,7 @@ class Bud_Rot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Fungal pathogens like Phytophthora palmivora",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -338,7 +338,7 @@ class Bud_Rot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Waterlogged or poorly drained soil conditions",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -362,7 +362,7 @@ class Bud_Rot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "High humidity and wet weather",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -386,7 +386,7 @@ class Bud_Rot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Improper cultural practicesas overwatering",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -410,7 +410,7 @@ class Bud_Rot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Mechanical injury to bud tissues",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -434,7 +434,7 @@ class Bud_Rot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Infestation by pests like beetles or borers",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -454,7 +454,7 @@ class Bud_Rot extends StatelessWidget {
                                             borderRadius:
                                                 BorderRadius.circular(20),
                                             image: const DecorationImage(
-                                              image: AssetImage(CImages.sb1),
+                                              image: AssetImage(CImages.br7),
                                               fit: BoxFit.cover,
                                             )),
                                       ),
@@ -489,7 +489,7 @@ class Bud_Rot extends StatelessWidget {
                                       padding:
                                           EdgeInsets.only(right: 225, top: 15),
                                       child: Text(
-                                        'Symptoms:',
+                                        'Treatments:',
                                         style: TextStyle(
                                             fontSize: 16,
                                             color: CColors.black,
@@ -513,7 +513,7 @@ class Bud_Rot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Fungicides like metalaxyl or phosphorous acid",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -537,7 +537,7 @@ class Bud_Rot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Proper drainage to reduce waterlogging",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -561,7 +561,7 @@ class Bud_Rot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Soil amendments to improve soil and drainage",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -585,7 +585,7 @@ class Bud_Rot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Removal of infected plant to prevent spread",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -609,7 +609,7 @@ class Bud_Rot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Pruning to improve air & reduce humidity",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -633,7 +633,7 @@ class Bud_Rot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Using of biocontrol agent like Trichoderma spp",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -653,7 +653,7 @@ class Bud_Rot extends StatelessWidget {
                                             borderRadius:
                                                 BorderRadius.circular(20),
                                             image: const DecorationImage(
-                                              image: AssetImage(CImages.sb1),
+                                              image: AssetImage(CImages.br8),
                                               fit: BoxFit.cover,
                                             )),
                                       ),
@@ -688,7 +688,7 @@ class Bud_Rot extends StatelessWidget {
                                       padding:
                                           EdgeInsets.only(right: 225, top: 15),
                                       child: Text(
-                                        'Symptoms:',
+                                        'Fungicides:',
                                         style: TextStyle(
                                             fontSize: 16,
                                             color: CColors.black,
@@ -712,7 +712,7 @@ class Bud_Rot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Copper-based fungicides: Effective",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -736,7 +736,7 @@ class Bud_Rot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Plant extracts: Cinnamon oil",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -760,7 +760,7 @@ class Bud_Rot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Bordeaux mixture: Combats fungal infections.",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -784,7 +784,7 @@ class Bud_Rot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Biological fungicides: Bacillus lives pathogens",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -808,7 +808,7 @@ class Bud_Rot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Neem oil: Natural antifungal solution",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -832,7 +832,7 @@ class Bud_Rot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Garlic extract: Antimicrobial properties",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -852,7 +852,7 @@ class Bud_Rot extends StatelessWidget {
                                             borderRadius:
                                                 BorderRadius.circular(20),
                                             image: const DecorationImage(
-                                              image: AssetImage(CImages.sb1),
+                                              image: AssetImage(CImages.br9),
                                               fit: BoxFit.cover,
                                             )),
                                       ),
@@ -887,7 +887,7 @@ class Bud_Rot extends StatelessWidget {
                                       padding:
                                           EdgeInsets.only(right: 225, top: 15),
                                       child: Text(
-                                        'Symptoms:',
+                                        'Practises:',
                                         style: TextStyle(
                                             fontSize: 16,
                                             color: CColors.black,
@@ -911,7 +911,7 @@ class Bud_Rot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Proper drainage: Prevents waterlogging in soil.",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -935,7 +935,7 @@ class Bud_Rot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Pruning: Remove affected parts promptly.",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -959,7 +959,7 @@ class Bud_Rot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Sanitation: Clean tools to prevent spread.",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -983,7 +983,7 @@ class Bud_Rot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Monitor humidity: Avoid damp conditions.",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -1007,7 +1007,7 @@ class Bud_Rot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Mulching: Regulates soil moisture levels.",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -1031,7 +1031,7 @@ class Bud_Rot extends StatelessWidget {
                                                 color: CColors.primaryColor),
                                           ),
                                           Text(
-                                            "This is the symptom of stem bleeding...",
+                                            "Fungicide applications: Regular treatments",
                                             style: TextStyle(
                                                 fontSize: 14,
                                                 color: CColors.black),
@@ -1051,7 +1051,7 @@ class Bud_Rot extends StatelessWidget {
                                             borderRadius:
                                                 BorderRadius.circular(20),
                                             image: const DecorationImage(
-                                              image: AssetImage(CImages.sb1),
+                                              image: AssetImage(CImages.br10),
                                               fit: BoxFit.cover,
                                             )),
                                       ),
@@ -1075,9 +1075,9 @@ class Bud_Rot extends StatelessWidget {
 
                         GestureDetector(
                           onTap: () => _launchURL(
-                              'https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID'),
+                              'https://youtu.be/M7-LjeRsZ7o?si=2_kO0e_mGnCUmBKg'),
                           child: const Text(
-                            'Learn more about Stem Bleeding on YouTube',
+                            'Learn more about Bud Rot on YouTube',
                             style: TextStyle(
                               fontSize: 16.0,
                               fontWeight: FontWeight.bold,
@@ -1109,19 +1109,19 @@ Widget _buildFourImageGrid() {
     crossAxisSpacing: 0, // Spacing between buttons
     children: [
       Image.asset(
-        CImages.sb1,
+        CImages.br2,
         fit: BoxFit.cover,
       ),
       Image.asset(
-        CImages.sb2,
+        CImages.br3,
         fit: BoxFit.cover,
       ),
       Image.asset(
-        CImages.sb3,
+        CImages.br4,
         fit: BoxFit.cover,
       ),
       Image.asset(
-        CImages.sb4,
+        CImages.br5,
         fit: BoxFit.cover,
       ),
     ],

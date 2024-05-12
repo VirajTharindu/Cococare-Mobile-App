@@ -163,11 +163,13 @@ class Tracking_Form_Container extends StatelessWidget {
                       controller: commentController,
                       maxLines: null,
                       keyboardType: TextInputType.multiline,
-                      style: const TextStyle(color: CColors.darkgrey),
+                      style: const TextStyle(
+                          color: CColors.darkgrey, fontSize: 18),
                       decoration: InputDecoration(
                         hintText: 'Enter your comments...',
                         hintStyle: const TextStyle(
                           color: CColors.darkgrey,
+                          fontSize: 18,
                         ),
                         border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(20.0),

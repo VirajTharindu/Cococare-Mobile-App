@@ -1,6 +1,7 @@
 import 'package:coconut_disease_detection/common/network_manager.dart';
 import 'package:coconut_disease_detection/data/repositories/tracking/tracking_repository.dart';
 import 'package:coconut_disease_detection/features/authentication/models/tracking_model.dart';
+import 'package:coconut_disease_detection/features/authentication/screens/disease_detect/disease_detect.dart';
 import 'package:coconut_disease_detection/features/authentication/screens/home/home.dart';
 import 'package:coconut_disease_detection/utils/constants/image_strings.dart';
 import 'package:coconut_disease_detection/utils/popups/full_screen_loader.dart';
@@ -96,7 +97,7 @@ class TrackingController extends GetxController {
 
       //move to relavant screen
 
-      Get.to(() => const HomeScreen());
+      Get.to(() => const DiseaseDetect());
     } catch (e) {
       // Stop loading
       CFullScreenLoader.stopLoading();
