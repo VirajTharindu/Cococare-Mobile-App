@@ -1,4 +1,4 @@
-# Cococare - Coconut Disease Management System
+# 'Cococare' Mobile App - (A Coconut Disease Management System)
 
 Cococare is a mobile application designed to help coconut farmers and agricultural officers track, report, and manage coconut diseases effectively. The system provides real-time disease tracking, analysis, prevention methods, and essential tools to combat coconut diseases efficiently.
 
