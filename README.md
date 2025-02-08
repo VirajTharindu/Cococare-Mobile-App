@@ -41,7 +41,7 @@ Cococare is a mobile application designed to help coconut farmers and agricultur
 
 
 - Explore recommended tools and chemical solutions.
-- 
+  
 - Get ingredient lists and application methods for disease treatment.
   
 - Receive expert-recommended best practices for disease management.
