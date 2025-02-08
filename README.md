@@ -86,7 +86,7 @@ Cococare is a mobile application designed to help coconut farmers and agricultur
 1. Clone the repository:
    
    
-   git clone 
+   git clone https://github.com/VirajTharindu/Cococare-Mobile-App.git
   
   
 3. Navigate to the project directory:
