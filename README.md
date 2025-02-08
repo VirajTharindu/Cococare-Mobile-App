@@ -42,7 +42,7 @@ Cococare is a mobile application designed to help coconut farmers and agricultur
 
 - Explore recommended tools and chemical solutions.
 - 
-- Get ingredient lists and application methods for disease tretment.
+- Get ingredient lists and application methods for disease treatment.
   
 - Receive expert-recommended best practices for disease management.
   
@@ -65,8 +65,6 @@ Cococare is a mobile application designed to help coconut farmers and agricultur
 - **Firebase** - Authentication, Firestore database, and cloud storage.
   
 - **Dart** - Programming language for Flutter.
-  
-
 
 - **Chart.js / Recharts** - For data visualization and report analysis.
   
@@ -82,7 +80,7 @@ Cococare is a mobile application designed to help coconut farmers and agricultur
 - Firebase project set up ([Guide](https://firebase.google.com/docs/flutter/setup)).
   
 
-### Steps to Run
+### Steps to Run (add commands in PowerShell & run)
 
 
 1. Clone the repository:
@@ -94,7 +92,7 @@ Cococare is a mobile application designed to help coconut farmers and agricultur
 3. Navigate to the project directory:
    
   
-   cd Cococare
+   cd Cococare 
    
    
 5. Install dependencies:
@@ -145,13 +143,6 @@ Contributions are welcome! If you'd like to contribute:
    
 
 
-## 📜 License
-
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details
-
-
-
 ## 📧 Contact
 
 
@@ -159,9 +150,8 @@ For queries or collaborations, reach out to:
 
 
 - **Viraj Tharindu** - virajtharindu1997@gmail.com
-- 
 - **Linkedin Username** - https://www.linkedin.com/in/viraj-tharindu/
-- 
+
 
 ---
 
