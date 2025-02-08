@@ -111,7 +111,29 @@ Cococare is a mobile application designed to help coconut farmers and agricultur
 
 ## 📸 Screenshots (Optional)
 
+[Onboarding](https://github.com/VirajTharindu/Cococare-Mobile-App/blob/main/Screenshots/Onboarding.png)
 
+[Register](https://github.com/VirajTharindu/Cococare-Mobile-App/blob/main/Screenshots/Register.png)
+
+[E-mail Verification](https://github.com/VirajTharindu/Cococare-Mobile-App/blob/main/Screenshots/E-mail%20Verification%20.png)
+
+[E-mail Verification Successfull](https://github.com/VirajTharindu/Cococare-Mobile-App/blob/main/Screenshots/E-mail%20Verification%20successfull.png)
+
+[Login](https://github.com/VirajTharindu/Cococare-Mobile-App/blob/main/Screenshots/Login.png)
+
+[Home](https://github.com/VirajTharindu/Cococare-Mobile-App/blob/main/Screenshots/Home.png)
+
+[Disease List](https://github.com/VirajTharindu/Cococare-Mobile-App/blob/main/Screenshots/Disease%20List.png)
+
+[Disease](https://github.com/VirajTharindu/Cococare-Mobile-App/blob/main/Screenshots/Disease.png)
+
+[Disease Tracking](https://github.com/VirajTharindu/Cococare-Mobile-App/blob/main/Screenshots/Disease%20Tracking.png)
+
+[Disease Tracking Report](https://github.com/VirajTharindu/Cococare-Mobile-App/blob/main/Screenshots/Disease%20Tracking%20Report.png)
+
+[Diseae Report Analysis](https://github.com/VirajTharindu/Cococare-Mobile-App/blob/main/Screenshots/Disease%20Detection%20Analysis.png)
+
+[User Profile](https://github.com/VirajTharindu/Cococare-Mobile-App/blob/main/Screenshots/User%20Profile.png)
 
 
 
