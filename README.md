@@ -120,5 +120,3 @@ For queries or collaborations, reach out to:
 ---
 
 🚀 _Cococare - Ensuring Healthy Coconut Farming!_ 🌴
-
-> > > > > > > cff6e0c1b93d7c70aaa71279a2ff7e1a6197b90e
