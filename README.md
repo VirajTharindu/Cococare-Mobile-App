@@ -6,7 +6,7 @@ Cococare is a mobile application designed to help coconut farmers and agricultur
 
 ### 🌱 Disease Tracking & Management
 
-- Track disease occurrences based on location and severity.
+- Track disease occurrences based on several facts.
 - Report new cases of coconut diseases with detailed descriptions.
 - Analyze disease trends and generate insightful reports.
 
@@ -14,7 +14,6 @@ Cococare is a mobile application designed to help coconut farmers and agricultur
 
 - Generate reports on disease outbreaks.
 - Visualize disease trends with graphs and data analysis.
-- Share reports with agricultural officers for expert consultation.
 
 ### 🔍 Disease Information System
 
