@@ -37,10 +37,9 @@ Cococare is a mobile application designed to help coconut farmers and agricultur
 ## 🏗️ Tech Stack
 
 - **Flutter** - Cross-platform mobile app development.
-- **Firebase** - Authentication, Firestore database, and cloud storage.
+- **Firebase** - Authentication, Firestore database
 - **Dart** - Programming language for Flutter.
-
-- **Chart.js / Recharts** - For data visualization and report analysis.
+- **fl_charts** - For data visualization and report analysis.
 
 ## 📦 Installation & Setup
 
